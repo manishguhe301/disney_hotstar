@@ -29,7 +29,7 @@ const Login = () => {
         <div
           style={{ backgroundImage: `url(${loginBackground})` }}
           className='h-full bg-top bg-cover bg-no-repeat absolute right-0 left-0 z-[-1]'
-        ></div>
+        />
       </div>
     </section>
   );
