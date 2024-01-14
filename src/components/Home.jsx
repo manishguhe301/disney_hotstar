@@ -1,6 +1,7 @@
 import homeBG from '../assets/images/home-background.png';
 import styled from 'styled-components';
 import ImgSlider from './ImgSlider';
+import Viewers from './Viewers';
 
 const Container = styled.div`
   min-height: calc(100vh - 250px);
@@ -19,6 +20,7 @@ const Home = () => {
   return (
     <Container className='relative overflow-x-hidden block top-[72px]'>
       <ImgSlider />
+      <Viewers />
     </Container>
   );
 };
