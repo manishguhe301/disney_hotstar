@@ -48,7 +48,6 @@ const Viewers = () => {
           loop={true}
           playsInline={true}
           muted={true}
-
         >
           <source src={disneyVid} type='video/mp4' />
         </video>
@@ -65,7 +64,6 @@ const Viewers = () => {
           loop={true}
           playsInline={true}
           muted={true}
-
         >
           <source src={pixarVid} type='video/mp4' />
         </video>
@@ -82,7 +80,6 @@ const Viewers = () => {
           loop={true}
           playsInline={true}
           muted={true}
-
         >
           <source src={marvelVid} type='video/mp4' />
         </video>
@@ -99,7 +96,6 @@ const Viewers = () => {
           loop={true}
           playsInline={true}
           muted={true}
-
         >
           <source src={starWarsVid} type='video/mp4' />
         </video>
@@ -116,7 +112,6 @@ const Viewers = () => {
           loop={true}
           playsInline={true}
           muted={true}
-
         >
           <source src={natGeoVid} type='video/mp4' />
         </video>

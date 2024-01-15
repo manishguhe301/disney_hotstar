@@ -1,8 +1,10 @@
 import loginBackground from '../assets/images/login-background.jpg';
 import logoOne from '../assets/images/cta-logo-one.svg';
 import logoTwo from '../assets/images/cta-logo-two.png';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <section className='overflow-hidden flex flex-col text-center h-[100vh]'>
       <div className='mb-[10vw] w-full relative min-h-[100vh] box-border flex justify-center items-center flex-col py-20 px-10 h-full'>
@@ -12,7 +14,10 @@ const Login = () => {
             alt='Logo One'
             className='mb-3 max-w-[600px] min-h-[1px] block w-full z-[1]'
           />
-          <button className='font-bold text-[#f9f9f9] bg-[#0063e5] mb-3 w-full tracking-[1.5px] text-lg border border-transparent rounded hover:bg-[#0483ee] py-[16.5px]'>
+          <button
+            className='font-bold text-[#f9f9f9] bg-[#0063e5] mb-3 w-full tracking-[1.5px] text-lg border border-transparent rounded hover:bg-[#0483ee] py-[16.5px]'
+            onClick={() => navigate('/home')}
+          >
             GET ALL THERE
           </button>
           <p className='text-[ hsla(0, 0%, 95.3%, 1)] text-[11px] my-0 mx-6 leading-6 tracking-[1.5px]'>
